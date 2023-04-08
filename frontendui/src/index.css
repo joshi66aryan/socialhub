@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;   /* necessary step for connecting with tailwind css */
+@tailwind utilities;
+
+body {
+    font-family: 'Lato', san-serif;
+}
+
+.hide-scrollbar::-webkit-scrollbar{
+    display: none;
+}
